@@ -1,5 +1,12 @@
 @charset "UTF-8";
-/* variables */
+/* variables */ /* -------------------------------- INICIO MEDIA -------------------------------------- */
+@media (min-width: 992px) {
+  .bg-desarrollo-wrap {
+    flex-wrap: nowrap;
+  }
+}
+/* -------------------------------- FIN MEDIA -------------------------------------- */
+/* -------------------------------- INICIO NAVEGACION -------------------------------------- */
 .navbar-nav a:hover {
   color: blue;
 }
@@ -11,11 +18,9 @@
   background-color: white;
 }
 
-@media (min-width: 992px) {
-  .bg-desarrollo-wrap {
-    flex-wrap: nowrap;
-  }
-}
+/* -------------------------------- FIN NAVEGACION -------------------------------------- */
+/* -------------------------------- INICIO ELEMETOS FOOTER -------------------------------------- */
+/* Configuracion cambio de color link footer */
 .bg-link-footer h5 {
   font-weight: 300;
 }
@@ -29,45 +34,33 @@
   color: rgb(0, 102, 255);
 }
 
+/* Configuracion cuadro final footer */
 .bg-cuadro-final {
   text-align: center;
 }
 
+/* Configuracion imagen de fondo footer */
 .imagen_footer {
   background-image: url(../assets/img/footer-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+/* Configuracion logo footer */
 .imagen_logo_footer {
   background-repeat: no-repeat;
   width: 30%;
 }
 
-.boton_buscar {
-  width: 50%;
-}
-
+/* Configuracion cuadro final */
 .cuadro-final-footer {
   background-color: #0E0E54;
 }
 
-.boton1-item-search h3 a {
-  color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-decoration: none;
-  background-color: rgb(0, 102, 255);
-  padding: 10px 30px;
-  border-radius: 10px;
-  font-size: 60%;
-}
-.boton1-item-search h3 a:hover {
-  background-color: transparent;
-  border: rgb(0, 102, 255) 2px solid;
-  color: rgb(0, 102, 255);
-}
-
-.boton-item h3 a {
+/* -------------------------------- FIN ELEMETOS FOOTER -------------------------------------- */
+/* -------------------------------- INICIO BOTONES -------------------------------------- */
+/* BOTONES INDEX */
+.boton1-item h3 a {
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
@@ -76,7 +69,7 @@
   border-radius: 50px;
   font-size: 70%;
 }
-.boton-item h3 a:hover {
+.boton1-item h3 a:hover {
   background-color: rgba(0, 0, 0, 0.2);
   border: black 2px solid;
 }
@@ -95,6 +88,7 @@
   border: rgb(0, 102, 255) 2px solid;
 }
 
+/* BOTONES DESARROLLO */
 .boton1-item-desarrollo h3 a {
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -110,6 +104,28 @@
   color: rgb(0, 102, 255);
 }
 
+/* BOTONES FOOTER */
+.boton_buscar {
+  width: 50%;
+}
+
+.boton1-item-search h3 a {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  background-color: rgb(0, 102, 255);
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 60%;
+}
+.boton1-item-search h3 a:hover {
+  background-color: transparent;
+  border: rgb(0, 102, 255) 2px solid;
+  color: rgb(0, 102, 255);
+}
+
+/* -------------------------------- FIN BOTONES -------------------------------------- */
+/* -------------------------------- INICIO ELEMENTOS INDEX -------------------------------------- */
 .bg-main-item {
   /* Imagen elegida */
   background-image: url("../assets/img/consultoria-procesos-desarrollo-1-1024x540.jpg");
@@ -124,8 +140,12 @@
   margin-bottom: 2%;
 }
 
-.bg_cuadro1 {
-  background-color: rgb(143, 140, 140);
+.bg-cuadro1 {
+  background-color: #eaebec;
+}
+
+.bg-texto1 {
+  color: #a09f9f;
 }
 
 .bg-texto-link {
@@ -159,6 +179,8 @@
   width: 30%;
 }
 
+/* -------------------------------- FIN ELEMENTOS INDEX -------------------------------------- */
+/* -------------------------------- INICIO ELEMENTOS CONTACTO -------------------------------------- */
 .bg-main-contacto {
   /* Imagen elegida */
   background-image: url("../assets/img/contacto.jpg");
@@ -177,6 +199,8 @@
   width: 100%;
 }
 
+/* -------------------------------- FIN ELEMENTOS CONTACTO -------------------------------------- */
+/* -------------------------------- INICIO ELEMENTOS EMPLEO -------------------------------------- */
 .bg-main-empleos {
   /* Imagen elegida */
   background-image: url("../assets/img/empleos1.jpg");
@@ -195,11 +219,15 @@
   width: 80%;
 }
 
+/* -------------------------------- FIN ELEMENTOS EMPLEO -------------------------------------- */
+/* -------------------------------- INICIO ELEMENTOS DESARROLLO -------------------------------------- */
 .bg-cuadro-desarrollo-2 {
   background-color: rgb(0, 102, 255);
   color: white;
 }
 
+/* -------------------------------- FIN ELEMENTOS DESARROLLO -------------------------------------- */
+/* -------------------------------- INICIO ELEMENTOS RPA -------------------------------------- */
 .bg-cuadro-rpa2-1 {
   width: 40%;
 }
@@ -230,4 +258,6 @@ o .bg-cuadro-rpa2-3 {
 
 .bg-rpa-fondo {
   width: 100%;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/* -------------------------------- FIN ELEMENTOS RPA -------------------------------------- *//*# sourceMappingURL=main.css.map */
