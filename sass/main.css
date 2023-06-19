@@ -236,7 +236,7 @@
   width: 100%;
 }
 
-o .bg-cuadro-rpa2-3 {
+.bg-cuadro-rpa2-3 {
   width: 200%;
 }
 
@@ -245,7 +245,12 @@ o .bg-cuadro-rpa2-3 {
 }
 
 .bg-cuadro-rpa3 {
+  height: 100%;
   width: 100%;
+  transition: 1500ms;
+}
+.bg-cuadro-rpa3:hover {
+  transform: scale(0.8);
 }
 
 .bg-texto1-rpa {
